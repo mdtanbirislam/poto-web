@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="products">
+      <div class="small-img">
+        <img src="image_search_1685756862052.jpg" alt=""onclick="myFunction(this)">
+        <img src="img-2.jpg" alt=""onclick="myFunction(this)">
+        <img src="img-3.jpg" alt=""onclick="myFunction(this)">
+        <img src="img-4.jpg" alt=""onclick="myFunction(this)">
+         
+
+      </div> 
+
+      <div class="big-img">
+        <img id="displayBox" sec="img-4.jpg.jpg" alt="">
+      </div>
+
+
+
+
+
+
+    </div>
+
+     <script>
+        function myFunction(smallImg){
+           var fullImage = document.getElementById("displayBox");
+           fullImage.src= smallImg.src
+
+        }
+
+     </script>
+
+
+</body>
+</html>
